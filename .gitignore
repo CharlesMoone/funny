@@ -1,5 +1,29 @@
-node_modules
-.DS_Store
+test
+bizroad
 dist
-dist-ssr
-*.local
+
+.DS_Store
+
+node_modules
+
+*.tgz
+
+# Emacs
+*~
+
+# Vim
+.swp
+
+# JetBrains Intellij
+.idea
+
+# VScode
+.vscode
+
+# lock
+yarn.lock
+package-lock.json
+tsconfig.tsbuildinfo
+
+# error
+yarn-error.log
